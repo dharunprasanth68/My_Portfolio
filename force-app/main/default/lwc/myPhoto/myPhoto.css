@@ -1,3 +1,4 @@
+
     .container{
         width: 40%;
         float: right;
@@ -9,13 +10,14 @@
         font-family: Verdana;
         font-weight: Bold;
         font-size: 25px;
+        color: #2B3A56;
     }
 
     p{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 20px;
+        color: #2B3A56;
     }
-
     .text {
         /* clear: both; */
         padding-top: 70px; 
@@ -34,9 +36,9 @@
     /* Increases padding for a larger button */
     border-radius: 50px;
     /* Makes the buttons round */
-    background-color: #007BFF;
+    background-color: #EF5A6F;
     /* Button background color */
-    color: white;
+    color: #FFF1DB;
     /* Button text color */
     border: none;
     /* Removes border */
@@ -50,6 +52,6 @@
 }
 
 .cta-button button:hover {
-    background-color: #0056b3;
+    background-color: #C94A5B;
     /* Darker shade on hover */
 }
