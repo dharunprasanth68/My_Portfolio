@@ -1,0 +1,12 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.about-heading{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
