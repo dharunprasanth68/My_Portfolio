@@ -2,9 +2,12 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
 }
-
+.about-me{
+    font-size: 16px;
+}
 .about-heading{
     font-size: 20px;
     font-weight: bold;

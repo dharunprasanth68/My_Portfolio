@@ -1,0 +1,47 @@
+.main {
+    text-align: center;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-title {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #00B7C2;
+}
+
+.badges {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.badge-container {
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 150px; /* Ensuring consistent width for the badge container */
+    pointer-events: auto;
+}
+
+.badge {
+    width: 150px; /* Fixed width */
+    height: 150px; /* Fixed height */
+    object-fit: contain; /* Scale the image to fit within the box without cropping */
+    transition: transform 0.3s ease;
+}
+   
+
+.badge-container:hover .badge {
+    transform: scale(1.2);
+}
+
+.badge-label {
+    margin-top: 10px;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
