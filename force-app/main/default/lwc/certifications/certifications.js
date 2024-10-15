@@ -6,6 +6,7 @@ export default class Certifications extends LightningElement {
     rangerLogo = logos + '/img/ranger.png';
     asuSfLogo = logos + '/img/asuSf.png';
     gdaLogo = logos + '/img/gda.png';
+    awsLogo = logos + '/img/aws.png';
 
     pdURL = 'https://www.salesforce.com/trailblazer/dharunprasanth98';
 }
